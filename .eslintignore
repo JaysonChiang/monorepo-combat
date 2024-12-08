@@ -1,0 +1,20 @@
+# .eslintignore
+node_modules
+dist
+coverage
+
+*.sh
+*.md
+*.woff
+*.ttf
+.vscode 
+.idea
+/public
+/docs
+.husky
+.local
+/bin
+Dockerfile
+
+# 不對 Deno 檢查
+/faas

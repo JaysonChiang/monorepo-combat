@@ -1,3 +1,30 @@
 {
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  // ESLint Setup
+  // "eslint.packageManager": "pnpm",
+  "eslint.validate": ["typescript", "typescriptreact"],
+  "eslint.options": {
+    "extensions": [".js", ".vue", ".ts"]
+  },
+
+  // Prettier Setup
+  "prettier.requireConfig": true,
+  "prettier.useEditorConfig": true,
+  "[vue]":{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
 }

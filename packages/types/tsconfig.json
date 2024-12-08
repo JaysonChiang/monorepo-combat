@@ -1,0 +1,21 @@
+{
+  "extends": "@skimhugo/tsconfig",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "declaration": true,
+    "typeRoots": ["./node_modules/@types"],
+    "types":[],
+    "baseUrl":".",
+    "paths":{
+      "@/*":["src/*"]
+    }
+  },
+  "include": [
+    "tests/**/*.ts",
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ],
+  "exclude": ["node_modules", "tests/server/**/*.ts", "**/*.js", "**/*.md"]
+}
