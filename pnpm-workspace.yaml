@@ -1,0 +1,9 @@
+packages:
+  - 'packages/**'
+  - 'scripts/**'
+  - 'faas/**'
+  - 'baas/**'
+  # 不包捏在 test 文件夾下的 package
+  - '! **/test/**'
+  - '! **/tests/**'
+  - '! **/dist/**'

@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@skimhugo/tsconfig": "^1.0.4",
+    "typescript": "^5.7.2"
+  }
 }
